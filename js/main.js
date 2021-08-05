@@ -7,6 +7,7 @@ function FetchMovie(e){
     let movieInput = document.getElementById("movieInput").value;
 
     let movieDetails = "";
+    
     // Fetch movie details from OMDB API
     fetch('http://www.omdbapi.com/?i=tt3896198&apikey=25e8a37f' + "&t=" + movieInput, {
         method: 'GET',
@@ -34,6 +35,8 @@ function FetchMovie(e){
                 <p>Language: <a href="#">${data.Language}</a></p>
             </div>
         `
+
+        // Append the Search Result to the MovieBox div in the HTML file
         document.getElementById("movieBox").innerHTML = movieDetails;
     })
 }
