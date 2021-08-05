@@ -155,7 +155,7 @@
     background: rgb(236, 232, 232);
     height: 0;
     overflow: hidden;
-    transition: .3s;
+    transition: .6s;
 }
 
 .container .movie-box .active{
