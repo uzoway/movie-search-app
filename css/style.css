@@ -151,9 +151,16 @@
 }
 
 .container .movie-box .movie-details{
-    padding: 1rem .5rem;
+    padding: 0;
     background: rgb(236, 232, 232);
+    height: 0;
     overflow: hidden;
+    transition: .3s;
+}
+
+.container .movie-box .active{
+    height: 9rem;
+    padding: 1rem .5rem;
 }
 
 .container .movie-box .movie-details p{
