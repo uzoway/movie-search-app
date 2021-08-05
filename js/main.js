@@ -19,19 +19,19 @@ function FetchMovie(e){
 
         movieDetails += `
             <div class="movie-header">
-            <h3></h3>
+            <h3>${data.Title}</h3>
             <button id="detailBtn">Details</button>
             </div>
             <div class="movie-image">
-                <img src="" alt="Movie Poster">
+                <img src="${data.Poster}" alt="Movie Poster">
             </div>
             <div class="movie-details">
-                <p>Actors: <a href="#"></a></p>
-                <p>Director: <a href="#"></a></p>
-                <p>Genre: <a href="#"></a></p>
-                <p>Runtime: <a href="#"></a></p>
-                <p>Released: <a href="#"></a></p>
-                <p>Language: <a href="#"></a></p>
+                <p>Actors: <a href="#">${data.Actors}</a></p>
+                <p>Director: <a href="#">${data.Director}</a></p>
+                <p>Genre: <a href="#">${data.Genre}</a></p>
+                <p>Runtime: <a href="#">${data.Runtime}</a></p>
+                <p>Released: <a href="#">${data.Released}</a></p>
+                <p>Language: <a href="#">${data.Language}</a></p>
             </div>
         `
         document.getElementById("movieBox").innerHTML = movieDetails;
