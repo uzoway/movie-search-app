@@ -4,11 +4,11 @@ function FetchMovie(e){
     //Prevents the default form submission
     e.preventDefault();
 
-    let movieInput = document.getElementById("movieInput").nodeValue;
+    let movieInput = document.getElementById("movieInput").value;
 
     let movieDetails = "";
     // Fetch movie details from OMDB API
-    fetch('http://www.omdbapi.com/?i=tt3896198&apikey=25e8a37f' + "&t+" + movieInput, {
+    fetch('http://www.omdbapi.com/?i=tt3896198&apikey=25e8a37f' + "&t=" + movieInput, {
         method: 'GET',
         headers: {
             'Accept': 'application/json'
