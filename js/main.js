@@ -26,7 +26,7 @@ function FetchMovie(e){
             <div class="movie-image">
                 <img src="${data.Poster}" alt="Movie Poster">
             </div>
-            <div class="movie-details">
+            <div class="movie-details" id="movieDeatailBox">
                 <p>Actors: <a href="#">${data.Actors}</a></p>
                 <p>Director: <a href="#">${data.Director}</a></p>
                 <p>Genre: <a href="#">${data.Genre}</a></p>
@@ -38,5 +38,11 @@ function FetchMovie(e){
 
         // Append the Search Result to the MovieBox div in the HTML file
         document.getElementById("movieBox").innerHTML = movieDetails;
+
+        // Collaspe or expand the Movie details box
+        document.getElementById("detailBtn").addEventListener('click', function(){
+            let movieDetailBox = document.getElementById("movieDeatailBox");
+            movieDetailBox.classList.toggle("active");
+        })
     })
 }
