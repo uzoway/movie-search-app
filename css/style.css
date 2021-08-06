@@ -180,3 +180,87 @@
 .container .movie-box .movie-details a:hover{
     text-decoration: underline;
 }
+
+/* Larger mobile screen sizes styles */
+@media screen and (min-width: 375px){
+    .container .movie-box {
+        width: 90%;
+        margin: 2rem auto 3rem;
+    }
+
+    .container .movie-box .active {
+        height: 11rem;
+    }
+}
+
+/* Small tablet sizes styles */
+@media screen and (min-width: 620px){
+    .container {
+        padding: 2rem 4rem;
+    }
+
+    .container .movie-box {
+        width: 70%;
+    }
+}
+
+/* Large tablets and laptop styles */
+@media screen and (min-width: 960px){
+    .container {
+        padding: 2rem 9rem;
+    }
+
+    .container .movie-box {
+        width: 50%;
+    }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1200px){
+    .container {
+        padding: 2rem 12rem;
+    }
+
+    .container header a{
+        font-size: 2rem;
+    }
+
+    .container header .movie-form{
+        width: 40%;
+    }
+    
+    .container header .movie-form .movie-input{
+        padding: .7rem .7rem .7rem .4rem;
+        font-size: 1rem;
+    }
+    
+    .container header .movie-form .btn{
+        padding: .7rem .7rem;
+        font-size: 1rem;
+    }
+
+    .container .movie-box {
+        width: 40%;
+    }
+
+    .container .movie-box .movie-header{ 
+        padding: .8rem;
+    }
+    
+    .container .movie-box .movie-header h3{
+        font-size: 1.2rem;
+    }
+    
+    .container .movie-box .movie-header button{
+        padding: .5rem 1rem;
+        font-size: .9rem;
+    }
+
+    .container .movie-box .movie-details p{
+        font-size: .9rem;
+    }
+    
+    .container .movie-box .movie-details a{
+        font-size: .9rem;
+    }
+}
