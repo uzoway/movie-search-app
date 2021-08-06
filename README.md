@@ -29,7 +29,7 @@ Users are able to:
 
 ### Link
 
-- [Live Site]()
+- [Live Site](https://movie-search-app-red.vercel.app/)
 
 ## My Process
 
