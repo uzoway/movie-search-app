@@ -159,14 +159,15 @@
 }
 
 .container .movie-box .active{
-    height: 9rem;
-    padding: 1rem .5rem;
+    height: 9.5rem;
+    padding: .8rem .5rem;
 }
 
 .container .movie-box .movie-details p{
     font-size: .8rem;
     font-weight: 700;
     color: #00112c;
+    margin: .4rem 0;
 }
 
 .container .movie-box .movie-details a{
