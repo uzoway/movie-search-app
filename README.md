@@ -29,7 +29,7 @@ Users are able to:
 
 ### Link
 
-- [Live Site](https://movie-search-app-red.vercel.app/)
+- [Live Site](https://uzoway.github.io/movie-search-app/)
 
 ## My Process
 
