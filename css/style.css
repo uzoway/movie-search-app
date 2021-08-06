@@ -180,26 +180,3 @@
 .container .movie-box .movie-details a:hover{
     text-decoration: underline;
 }
-
-
-
-.container footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: .5rem;
-    text-align: center;
-    background: #00112c;
-    color: #fff;
-}
-
-.container footer p{
-    font-size: .8rem;
-}
-
-.container footer p a{
-    text-decoration: none;
-    font-size: .8rem;
-    color: #0abf53;
-}
